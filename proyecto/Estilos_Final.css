@@ -1,0 +1,559 @@
+body{
+	background-color: #000;
+	font-family: Arial;
+}
+
+header {
+	width: 960px;
+	height: 130px;
+	background-color: #444;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+
+h1{
+	margin: 30px;
+	font-size: 18px;
+	float:left;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+h2{
+	
+	text-align: center;
+}
+
+header img{
+	width: 130px;
+	height: 130px;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 100%;
+}
+
+
+#botoneras{
+	width: 960px;
+	height: 100px;
+	margin: 10px auto;
+	background-color: #aaa;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+#botoneras ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botoneras ul li{
+	display: inline;
+}
+
+#botoneras ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding: 40px 72px;
+	margin-left: 6px
+}
+
+#botoneras ul li a:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#explicacion{
+	width: 960px;
+	height: 490px;
+	margin: 20px auto;
+	font-weight: bold;
+	background-color:  #888;
+	text-align: justify;
+	padding: 20px 20px;
+	box-sizing: border-box;
+}
+
+#posibilidades{
+	width: 960px;
+	height: 690px;
+	background-color: #999;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+
+#img_izq{
+	width: 400px;
+	height: 590px;
+	float: left;
+	background-image: url("imagenes/CAJAS.jpg");
+	margin: 10px 10px;
+	background-size: cover;
+	padding: 10px 10px;
+}
+
+#opcion1{
+	width: 500px;
+	height: 190px;
+	float: right;
+	background-color: #565958;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box; 
+	border-radius: 15px;
+}
+
+#opcion2{
+	width: 500px;
+	height: 190px;
+	background-color: #565958;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+#resultado{
+	width: 500px;
+	height: 190px;
+	background-color: #565958;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+#nosotros{
+	width: 960px;
+	height: 1300px;
+	margin: 20px auto;
+	background-color:  #666;
+	text-align: justify;
+	padding: 15px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.Tortuga {
+	width: 400px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+#botonera_nosotros{
+	width: 960px;
+	height: 80px;
+	text-align: center;
+}
+
+#img_nosotros{
+	width: 300px;
+	height: auto;
+	float: none;
+
+}
+
+#img_nosotros img{
+	width: 100%;
+}
+
+#info_nosotros{
+	width: 550px;
+	height: auto;
+
+}
+
+#img_nosotros{
+	width: 50%;
+	float: none;
+}
+
+#img_nosotros img{
+	width: 100%;
+}
+
+#info_nosotros{
+	width: 100%;
+	float: none;
+}
+
+#botonera_nosotros ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera_nosotros ul li{
+	display: inline;
+}
+
+#botonera_nosotros ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 30px 10px;
+	font-weight: bold;
+	color: #000;
+	font-size: 30px;
+}
+
+#botonera_nosotros ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+#contacto{
+	width: 960px;
+	height: 600px;
+	margin: 20px auto;
+	background-color:  #666;
+	text-align: justify;
+	padding: 180px 80px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+input, textarea{
+	display: block;
+	width: 100%;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+footer{
+	width: 960px;
+	height: 130px;
+	background-color: #888;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.redes{
+	height: 100px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+.redes ul li{
+	display: inline-block;
+	margin: 50px 5px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.redes ul li a{
+	display: block;
+	padding: 0 10px;
+	background-color: #222;
+	color: #fff;
+	line-height: 50px;
+	font-size: 20px;
+	box-shadow: 0 3px 5px 0px;
+}
+
+.redes ul li a:hover{
+	transform: translateY(-4px) scale(1.05);
+}
+
+.redes ul li .facebook:hover{
+	background-color: #3578E5;
+}
+
+.redes ul li .instagram:hover{
+	background-color: #ED8975;
+}
+
+.redes ul li .linkedin:hover{
+	background-color: #0077B5;
+}
+
+
+#botonera_footer{
+	padding: 30px;
+	width: 250px;
+	height: 50px;
+	float: right;
+}
+
+	
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header {
+	width: 580px;
+}
+
+h1{
+	font-size: 14px;
+}
+
+
+#botoneras{
+	width: 580px;
+	height: 70px;
+}
+
+#botoneras ul li a{
+	padding: 25px 23px;
+	margin-left: 10px
+}
+
+#explicacion{
+	width: 580px;	
+	height: 700px;
+}
+
+#posibilidades{
+	width: 580px;
+	height: 1550px;
+}
+
+#img_izq{
+	width: 560px;
+	height: 880px;
+	float: none;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#opcion1{
+	width: 560px;
+	height: 190px;
+	float: none;
+}
+
+#opcion2{
+	width: 560px;
+	height: 190px;
+	float: none;
+}
+
+#resultado{
+	width: 560px;
+	height: 190px;
+	float: none;
+}
+
+#nosotros{
+	width: 580px;
+	height: 1000px;
+}
+
+.tortuga img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#img_nosotros{
+	width: 200px;
+	height: auto;
+	float: none;
+}
+
+#img_nosotros img{
+	width: 100%;
+}
+
+#info_nosotros{
+	width: 550px;
+	height: auto;
+	float: none;
+}
+#botonera_nosotros{
+	width: 560px;
+	justify-content: center;
+}
+
+#contacto{
+	width: 580px;
+	height: 600px;
+}
+
+footer{
+	width: 580px;
+}
+
+#redes{
+	width: 200px;
+	height: 100px;
+}	
+
+#botonera_footer{
+	width: 250px;
+
+}
+
+} /* hasta 1023 */
+
+@media all and (max-width: 599px){
+
+header {
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+
+#inicio{
+	width: 100%;
+	height: auto;
+	float: none;
+
+}
+
+header img{
+	width: 50%;
+	height: auto;
+	float: none;
+	border-radius: 10%;
+}
+
+#botoneras{
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+
+#botoneras ul li{
+	display: block;
+}
+
+#botoneras ul li a{
+	padding: 20px 72px;
+}
+
+
+#explicacion{
+	width: 90%;
+	height: auto; 
+}
+
+#posibilidades{
+	width: 90%;
+	height: auto;
+	float: none;
+	padding: 10px 0;
+}
+
+
+#img_izq{
+	width: 90%;
+	height: 600px;
+	float: none;
+}
+
+#opcion1{
+	width: 95%;
+	height: auto;
+	float: none;
+}
+
+#opcion2{
+	width: 95%;
+	height: auto;
+	float: none;
+}
+
+#resultado{
+	width: 95%;
+	height: auto;
+	float: none;
+	padding: 10px;
+}
+
+#nosotros{
+	width: 90%;
+	height: 1500px;
+}
+
+.Tortuga{
+	width: 100%
+}
+
+#botonera_nosotros{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+#img_nosotros{
+	width: 100%;
+	float: none;
+}
+
+#img_nosotros img{
+	width: 100%;
+	border-radius: 10%;
+}
+
+#info_nosotros{
+	width: 100%;
+	float: none;
+}
+
+
+#botonera_nosotros ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botonera_nosotros ul li{
+	display: inline-block;
+}
+
+
+#contacto{
+	width: 90%;
+	height: 600px;
+}
+
+input, textarea{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+footer{
+	width: 90%;
+	height: auto;
+	text-align: center;
+}
+
+.redes{
+	width: 80%
+	height: auto;
+}
+
+.redes ul li{
+	display: inline-block;
+	margin: 20px;
+	width: 50px;
+	height: auto;
+}
+
+
+#botonera_footer{
+	width: 90%;
+	height: auto;
+	float: none;
+	text-align: center;
+}
+
+}/*hasta 599 */
